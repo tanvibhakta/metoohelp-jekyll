@@ -1,0 +1,7 @@
+- name: facebook
+  src: ./assets/icons/facebook.png
+  url: https://facebook.com/IndiaMeToo
+
+- name: twitter
+  src: ./assets/icons/twitter.png
+  url: https://twitter.com/IndiaMeToo
