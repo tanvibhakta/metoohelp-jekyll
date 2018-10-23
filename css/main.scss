@@ -3,8 +3,8 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'DINPro-Regular', sans-serif;
-$subtitle-font-family: 'Roboto-Regular', sans-serif;
+$base-font-family: 'DINPro', sans-serif;
+$subtitle-font-family: 'Roboto', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.895;
 $large-font-size:  $base-font-size * 1.40;
@@ -48,20 +48,17 @@ $on-laptop:        700px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "custom"
 ;
 
 @font-face {
-  font-family: 'DINPro-Regular';
+  font-family: 'DINPro';
   src: url({{site.url}}/assets/font/DINPro-Regular_13937.ttf);
-}
-
-@font-face {
-  font-family: 'DINPro-Bold';
   src: url({{site.url}}/assets/font/DINPro-Bold_13934.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto-Black';
+  font-family: 'Roboto';
   src: url({{site.url}}/assets/font/Roboto-Black.ttf);
 }
