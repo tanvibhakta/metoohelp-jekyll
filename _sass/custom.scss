@@ -1,14 +1,21 @@
 .brand {
   font-size: 42px;
+  margin-bottom: $spacing-unit;
 }
 
 .brand__metoo {
-  font: 'DINPro', sans-serif;
   font-weight: bold;
 }
 
 .brand__india {
-  font: 'DINPro', sans-serif;
-  font-weight: lighter;
   color: $white-color;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: $yellow-color;
+  position: absolute;
+  margin-top: -($spacing-unit+2);
+  text-align: left;
 }

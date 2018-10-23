@@ -4,14 +4,13 @@
 
 // Our variables
 $base-font-family: 'DINPro', sans-serif;
-$subtitle-font-family: 'Roboto', sans-serif;
-$base-font-size:   16px;
+$base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.895;
 $large-font-size:  $base-font-size * 1.40;
 
-$base-line-height: 1.5;
+$base-line-height: 1.2;
 
-$spacing-unit:     30px;
+$spacing-unit:     50px;
 
 $text-color:       #1C1C1C;
 $background-color: #5BB4E5;
@@ -54,11 +53,11 @@ $on-laptop:        700px;
 
 @font-face {
   font-family: 'DINPro';
-  src: url({{site.url}}/assets/font/DINPro-Regular_13937.ttf);
-  src: url({{site.url}}/assets/font/DINPro-Bold_13934.ttf);
+  src: url({{site.url}}/assets/font/DINPro/DINPro-Regular_13937.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url({{site.url}}/assets/font/Roboto-Black.ttf);
+  font-family: 'DINPro';
+  font-weight: bold;
+  src: url({{site.url}}/assets/font/DINPro/DINPro-Bold_13934.ttf);
 }
