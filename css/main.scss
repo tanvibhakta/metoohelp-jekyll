@@ -3,7 +3,8 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+$base-font-family: 'DINPro-Regular', sans-serif;
+$subtitle-font-family: 'Roboto-Regular', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.895;
 $large-font-size:  $base-font-size * 1.40;
@@ -12,9 +13,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #454545;
-$background-color: #FFF;
+$text-color:       #1C1C1C;
+$background-color: #5BB4E5;
 $brand-color:      #00B2EE;
+
+$white-color: #FFFFFF;
+$yellow-color: #FAE046;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 30%);
@@ -46,3 +50,18 @@ $on-laptop:        700px;
         "layout",
         "syntax-highlighting"
 ;
+
+@font-face {
+  font-family: 'DINPro-Regular';
+  src: url({{site.url}}/assets/font/DINPro-Regular_13937.ttf);
+}
+
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url({{site.url}}/assets/font/DINPro-Bold_13934.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url({{site.url}}/assets/font/Roboto-Black.ttf);
+}
