@@ -2,7 +2,8 @@
 {% for link in site.data.footer %}
   <span class="icon">
     <a href="{{site.url}}/{{ link.url }}">
-      <i class="fas fa-{{link.name}} fas-2x"></i>
+      <span class="letter">{{link.name}}</span>
+      <!-- <i class="fas fa-{{link.name}} fas-2x"></i> -->
       <!-- <img src="{{ site.url }}/{{ link.src }}" alt="{{ link.name }}"/> -->
     </a>
   </span>

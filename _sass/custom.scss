@@ -19,3 +19,16 @@
   margin-top: -($spacing-unit+2);
   text-align: left;
 }
+
+.letter {
+  font-family: 'DINPro', sans-serif;
+  font-size: 30px;
+  color: $text-color;
+  margin-right: $spacing-unit;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: dashed;
+  border-color: $yellow-color;
+}
